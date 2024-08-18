@@ -1,0 +1,4 @@
+The dataset contains detailed records of network activities, capturing various attributes associated with network connections. Each record is labeled to indicate whether the activity is normal or a "Neptune" attack, providing a foundation for binomial classification.
+A Neptune attack, also known as a SYN flood attack, is a type of denial-of-service (DoS) attack where an attacker overwhelms a target system with a high number of SYN requests, causing the system to become unresponsive to legitimate traffic. It exploits the TCP handshake process to consume resources on the target machine.
+The training set contains 86,845 rows, including whether the activity (column - Attack) is normal or not. 
+Mulitiple machine learning models were tried befire Random Forest was adopted since it gave maximum F1 score (100) on the train-test split data and 99.9817 on the final testing dataset.  
